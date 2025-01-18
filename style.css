@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* to give backgroung-image */
+body {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, -0.5)),
+        url('rpc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* styling the bimage */
+body > img:first-of-type {
+    display: block;
+    margin: 20px auto; /* Example styling for your img tag */
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+}
+
+/* general styling */
+
+h1{
+background-color: #42a89d;
+color:rgb(245, 245, 245);
+height: 5rem;
+line-height: 5rem;
+
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 30%;
+    background-color: black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;   
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 15rem;
+    font-weight: bold;
+    gap: 5rem;
+    color: rgb(3, 3, 3);
+    /* background-color: black; */
+
+}
+#userscore, #compscore{
+    font-size: 3rem;
+    color:rgb(233, 224, 55);
+    /* background-color: black; */
+}
+
+.message-container{
+    margin: 5rem;
+}
+
+#msg{
+    background-color: #e6db0d;
+    color: black;    
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 3rem;
+    font-weight: bold;
+}
