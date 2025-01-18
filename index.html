@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <img src="rpc.png" style="display: none;"> -->
+    <h1>Rock Paper Scissor</h1>
+    <!-- to count the choices made -->
+
+ <div class="choices">
+
+    <div class="choice" id="rock">
+        <img src="stone.png" class="imgg">
+    </div>
+       <div class="choice" id="paper">
+        <img src="paper.png" class="imgg">
+    </div>
+       <div class="choice" id="scissors" >
+        <img src="scissors.png" class="imgg"> 
+    </div>
+  </div>
+
+
+<!-- to print the scores -->
+  <div class="score-board">
+    <div class="score">
+        <p id="userscore">0</p>
+        <p>You</p>
+    </div>
+    <div class="score">
+        <p id="compscore">0</p>
+        <p>Computer</p>
+    </div>
+  </div>
+
+  <!-- to print the result message -->
+<div class="message-container">
+    <p id="msg">Play your move</p>
+</div>
+
+ <script src="app.js"></script>
+</body>
+</html>
